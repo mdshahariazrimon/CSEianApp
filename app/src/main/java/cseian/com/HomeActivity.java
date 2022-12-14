@@ -229,20 +229,20 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                 startActivity(homeintent);
                 break;
 
-            case R.id.nav_finance:
+            case R.id.nav_oop:
                 Intent intent= new Intent(HomeActivity.this,CategorySelectedActivity.class);
-                intent.putExtra("title","finance");
+                intent.putExtra("title","OOP");
                 startActivity(intent);
                 break;
 
-            case R.id.nav_sports:
+            case R.id.nav_algorithm:
                 Intent intentS= new Intent(HomeActivity.this,CategorySelectedActivity.class);
-                intentS.putExtra("title","sports");
+                intentS.putExtra("title","Algorithm");
                 startActivity(intentS);
                 break;
-            case R.id.nav_food:
+            case R.id.nav_spl:
                 Intent intentF= new Intent(HomeActivity.this,CategorySelectedActivity.class);
-                intentF.putExtra("title","food");
+                intentF.putExtra("title","SPL");
                 startActivity(intentF);
                 break;
             case R.id.blogview:

@@ -14,8 +14,36 @@
         android:theme="@style/Theme.CSEisnApp"
         tools:targetApi="31">
         <activity
+            android:name=".shortnote"
+            android:exported="false" />
+
+        <activity
+            android:name=".CSEianBlog"
+            android:exported="false" />
+        <activity
+            android:name=".CommentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CategorySelectedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AskAQuestionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FinanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

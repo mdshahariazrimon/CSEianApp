@@ -52,7 +52,6 @@
         android:layout_marginTop="-2dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
-        android:textColor="@color/black"
         android:background="@drawable/backgroundeditview"
         android:padding="40sp"
         />

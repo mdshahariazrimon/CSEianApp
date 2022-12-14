@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">CSEisnApp</string>
+    <string name="app_name">CSEIAN</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="topics">
+        <item>Select topic</item>
+        <item>OOP</item>
+        <item>Algorithm</item>
+        <item>SPL</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="checkbox">cseian.com.sharedpreferences.checkbox</string>
+    <string name="email">cseian.com.sharedpreferences.checkbox</string>
+    <string name="password">cseian.com.sharedpreferences.checkbox</string>
 </resources>

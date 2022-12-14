@@ -10,17 +10,17 @@
             android:title="Home"
             android:icon="@drawable/ic_housing"/>
         <item
-            android:id="@+id/nav_finance"
-            android:title="finance"
-            android:icon="@drawable/ic_finance"/>
+            android:id="@+id/nav_oop"
+            android:title="OOP"
+            android:icon="@color/orange"/>
         <item
-            android:id="@+id/nav_sports"
-            android:title="Sports"
-            android:icon="@drawable/ic_sports"/>
+            android:id="@+id/nav_algorithm"
+            android:title="Algorithm"
+            android:icon="@color/red"/>
         <item
-            android:id="@+id/nav_food"
-            android:title="Food"
-            android:icon="@drawable/ic_food"/>
+            android:id="@+id/nav_spl"
+            android:title="SPL"
+            android:icon="@color/red"/>
     </group>
 
     <item android:title="Action">
