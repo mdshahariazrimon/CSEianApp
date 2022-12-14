@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/ic_housing"/>
+        <item
+            android:id="@+id/nav_finance"
+            android:title="finance"
+            android:icon="@drawable/ic_finance"/>
+        <item
+            android:id="@+id/nav_sports"
+            android:title="Sports"
+            android:icon="@drawable/ic_sports"/>
+        <item
+            android:id="@+id/nav_food"
+            android:title="Food"
+            android:icon="@drawable/ic_food"/>
+    </group>
+
+    <item android:title="Action">
+        <menu>
+            <item
+                android:id="@+id/blogview"
+                android:icon="@drawable/ic_blog"
+                android:title="CSEian Blog" />
+            <item
+                android:id="@+id/calculator"
+                android:icon="@drawable/ic_calculator"
+                android:title="Short Note" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_about"
+                android:title="About Us" />
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/rate"
+                android:icon="@drawable/ic_rate"
+                android:title="Rate" />
+        </menu>
+    </item>
+</menu>
